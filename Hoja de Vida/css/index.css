@@ -1,0 +1,88 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #E0FBFC;
+}
+
+.name {
+	width: 100%;
+	height: 300px;
+	background: #3D5A80;
+    transform: skewY(-4deg); 
+}	 
+
+.name .content {
+    top: 18%;
+	width: 60%;
+	height: 50%;
+	position: absolute;
+	left: 15%;
+}
+
+.name .content .p1{
+	color:black;
+	font-family: 'Lora', serif;
+	font-weight: bolder;
+	font-size: 50px;
+    transform: skewY(4deg);
+    margin-bottom:0;
+}
+
+.name .content .p2{
+	color: black;
+	font-family: 'Lora', serif;
+	font-size: 43px;
+	transform: skewY(4deg);
+    margin-top:0;
+    margin-bottom:0;
+}		
+
+.name .img{
+    position: absolute;
+    top: 20%;
+    right: 5%;
+    width: 180px;
+    height: 180px;
+    transform: skewY(4deg);
+    overflow: hidden;
+}
+
+.name .img img{
+    width: 128px;
+    height: 128px;
+}
+
+.info{
+    width: 90%;
+    height: auto;
+    background-color: #3D5A80;
+    margin:5% auto;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.info .tituloSeccion{
+    color: black;
+    font-family: 'Lora', serif;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 2px #E0FBFC solid;
+}
+
+.info .tituloInfo{
+    color: black;
+    font-family: 'Lora', serif;
+    font-weight: bolder;
+    font-size: large;
+    display:inline ;
+    margin-right: 20px;
+}
+
+.info .infoInfo{
+    color:#000000;
+    font-family: 'Lora', serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
